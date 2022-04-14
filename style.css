@@ -54,3 +54,15 @@ button:hover {
 button:active {
   opacity: 1;
 }
+
+p {
+  opacity: .75;
+}
+
+p:before {
+  content: open-quote;
+}
+
+p:after {
+  content: close-quote;
+}
